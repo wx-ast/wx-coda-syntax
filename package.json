@@ -1,9 +1,9 @@
 {
-  "name": "atom-light-syntax",
+  "name": "wx-coda-syntax",
   "theme": "syntax",
-  "version": "0.28.0",
+  "version": "0.1.0",
   "description": "A light syntax theme",
-  "repository": "https://github.com/atom/atom-light-syntax",
+  "repository": "https://github.com/wx-ast/wx-coda-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.40.0"

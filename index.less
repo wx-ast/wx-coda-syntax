@@ -86,6 +86,14 @@ atom-text-editor, :host {
       }
     }
   }
+
+  .delimiter {
+      color: #ff7800;
+  }
+
+  .gutter {
+      min-width: 5px;
+  }
 }
 
 :host(.is-focused) {
@@ -104,12 +112,11 @@ atom-text-editor, :host {
 }
 
 .comment {
-  color: #999988;
-  font-style: italic;
+  color: #8c868f;
 }
 
 .string {
-  color: #D14;
+  color: #3f9b1d;
 }
 
 // String interpolation in Ruby, CoffeeScript, and others
@@ -130,16 +137,16 @@ atom-text-editor, :host {
 
 .constant {
   &.numeric {
-    color: #D14;
+    color: #3b5bb5;
   }
 
   &.language {
-    color: #606aa1;
+    color: #3b5bb5;
   }
 
   &.character,
   &.other {
-    color: #606aa1;
+    color: #3b5bb5;
   }
 
   &.symbol {
@@ -152,20 +159,19 @@ atom-text-editor, :host {
 }
 
 .variable {
-  color: #008080;
+  color: #458;
 
   &.parameter {
-    color: #606aa1;
+    color: #000;
   }
 }
 
 // Keywords
 .keyword {
-  color: #222;
-  font-weight: bold;
+  color: #ff7800;
 
   &.unit {
-    color: #445588;
+    color: #ff7800;
   }
 
   &.special-method {
@@ -174,10 +180,10 @@ atom-text-editor, :host {
 }
 
 .storage {
-  color: #222;
+  color: #ff7800;
 
   &.type {
-    color: #222;
+    color: #ff7800;
   }
 }
 
@@ -193,16 +199,15 @@ atom-text-editor, :host {
   }
 
   &.name.function {
-    color: #900;
+    color: #3b5bb5;
   }
 
   &.name.tag {
-    color: #008080;
+    color: #3b5bb5;
   }
 
   &.other.attribute-name {
-    color: #458;
-    font-weight: bold;
+    color: #000;
   }
 
   &.name.filename.find-in-files {
@@ -214,11 +219,11 @@ atom-text-editor, :host {
   &.constant,
   &.function,
   &.type {
-    color: #458;
+    color: #3b5bb5;
   }
 
   &.class {
-    color: #008080;
+    color: #3b5bbd;
   }
 }
 
@@ -252,8 +257,7 @@ atom-text-editor, :host {
 // CSS Styles
 .css {
   &.support.property-name {
-    font-weight: bold;
-    color: #333;
+    color: #3b5bb5;
   }
 
   &.constant {

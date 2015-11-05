@@ -1,4 +1,4 @@
-# Atom Light Syntax theme
+# wx-ast Coda Syntax theme
 
 A light syntax theme for Atom.
 
